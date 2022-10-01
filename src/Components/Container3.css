@@ -1,0 +1,13 @@
+.members{
+    height: 200px;
+    color: black;
+    text-align: center;
+    padding-top:80px;
+    align-items: center;
+}
+
+.members h5{
+    font-size: 18px;
+    padding: 5px 150px;
+  
+}

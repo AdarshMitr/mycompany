@@ -1,0 +1,29 @@
+.row{
+    padding:30px 40px;
+
+}
+.col-sm-3{
+   
+    padding:5px 15px;
+   
+}
+
+#p1 {
+    color: rgba(245, 89, 89, 0.938);
+    background-color: rgba(236, 216, 216, 0.938);
+}
+
+#p2 {
+    color: rgba(99, 202, 14, 0.938);
+    background-color: rgba(208, 240, 216, 0.938);
+}
+
+#p3 {
+    color: rgba(185, 63, 15, 0.747);
+    background-color: rgba(248, 244, 218, 0.938);
+}
+
+#p4 {
+    color: rgba(126, 185, 252, 0.938);
+    background-color: rgb(212, 226, 248);
+}

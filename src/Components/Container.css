@@ -1,0 +1,22 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height:400px;
+}
+#alive{
+    background-color: rgb(60, 94, 231);
+    color: white;
+   text-align: center;
+   border-width: 0;
+   font-size: 18px;
+}
+
+.button-box{
+    align-items: center;
+    padding-top:200px;
+    padding-left:450px;
+}
