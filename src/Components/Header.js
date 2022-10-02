@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const Header=()=>{
     return (
@@ -13,22 +13,21 @@ const Header=()=>{
               <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul className="navbar-nav d-flex ">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">HOME</a>
+                    <Link className="nav-link active" aria-current="page" to="/">HOME</Link>
                   </li>
                   <li className="nav-item ">
-                    <a className="nav-link" href="#">ABOUT</a>
+                    <Link className="nav-link" to="/about">ABOUT</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">TESTIMONIALS</a>
+                  <Link className="nav-link" to="/testimonials">TESTIMONIALS</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">PRICING</a>
+                  <Link className="nav-link" to="/pricing">PRICING</Link></li>
+                  <li className="nav-item">
+                  <Link className="nav-link" to="/contact">CONTACT</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">CONTACT</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">SOCIAL</a>
+                  <Link className="nav-link" to="/social">SOCIAL</Link>
                   </li>
                  </ul>
               </div>

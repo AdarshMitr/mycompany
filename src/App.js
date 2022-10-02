@@ -10,20 +10,43 @@ import Container3 from './Components/Container3';
 import Card from './Components/Card';
 import Footer from './Components/Footer';
 
+import {Routes,Route } from 'react-router-dom';
+import  Home from './Pages/Home';
+import About from  './Pages/About';
+import Testimonials from './Pages/Testimonials';
+import Pricing from './Pages/Pricing';
+import Contact from './Pages/Contact';
+import Social from './Pages/Social';
+
+
 
 function App() {
   return (
     <>
     <Header/>
 
-   <FixedContainer/>
-   <Container2/>
+    <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/about' element={<About/>}/>
+    <Route path='/testimonials' element={<Testimonials/>}/>
+    <Route path='/pricing' element={<Pricing/>}/>
+    <Route path='/contact' element={<Contact/>}/>
+    <Route path='/social' element={<Social/>}/>
+   </Routes>
+   {/* <FixedContainer/> */}
+   {/* <Container2/> */}
+   {/* <Container3/> */}
+   {/* <Card/> */}
 
-   <Container3/>
-   <Card/>
-   <Footer/>
    
-    </>
+   <Footer/>
+
+   
+
+   </>
+   
+
+
    
   );
 }
