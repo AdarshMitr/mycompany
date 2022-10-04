@@ -27,16 +27,17 @@ function App() {
 
     <Routes>
     <Route path='/' element={<Home/>}/>
-    <Route path='/about' element={<About/>}/>
+    <Route path='#about' element={<About/>}/>
     <Route path='/testimonials' element={<Testimonials/>}/>
     <Route path='/pricing' element={<Pricing/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/social' element={<Social/>}/>
    </Routes>
-   {/* <FixedContainer/> */}
-   {/* <Container2/> */}
-   {/* <Container3/> */}
-   {/* <Card/> */}
+
+   {/* <FixedContainer/>  */}
+   <Container2/>
+   <Container3/>
+    <Card/>
 
    
    <Footer/>
